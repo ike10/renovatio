@@ -1,17 +1,27 @@
 {
   "files": {
-    "main.css": "/static/css/main.61ff7599.css",
-    "main.js": "/static/js/main.47270c1a.js",
+    "main.css": "/static/css/main.083ee9c7.css",
+    "main.js": "/static/js/main.923e34e8.js",
     "static/js/787.cfd8f164.chunk.js": "/static/js/787.cfd8f164.chunk.js",
-    "static/media/open.svg": "/static/media/open.4247417911a61aee3af103ca9eb33578.svg",
-    "static/media/Close.svg": "/static/media/Close.f62116527c022c8b770450b6f195f462.svg",
+    "static/media/welcome-image-1.svg": "/static/media/welcome-image-1.77a1d553b4e97f516d8300eb4547f953.svg",
+    "static/media/renovatio-logo.svg": "/static/media/renovatio-logo.8058e6731bfa2c138faa40ba81bdfc0b.svg",
+    "static/media/welcome-image-2.svg": "/static/media/welcome-image-2.26dc6c6784b645b2c63938af5038a41f.svg",
+    "static/media/welcome-image-3.svg": "/static/media/welcome-image-3.a74d6cb314b01c066b89d1557c793ad3.svg",
+    "static/media/Binance-Logo.svg": "/static/media/Binance-Logo.c51b19d4a9eaa7a24a5be2f2b7f719f9.svg",
+    "static/media/collectioncardimage.svg": "/static/media/collectioncardimage.1de6304c502aa597582281cb52e2472a.svg",
+    "static/media/coingecko.svg": "/static/media/coingecko.5d31f13cb3547e26f37e61739cd50167.svg",
+    "static/media/polygon_token_logo-freelogovectors.svg": "/static/media/polygon_token_logo-freelogovectors.a970f0812c61da2d4fea68174baf2878.svg",
+    "static/media/coinmarketcap.svg": "/static/media/coinmarketcap.54029472e7cb3b8a0fc019a9c91a495f.svg",
+    "static/media/currency.svg": "/static/media/currency.af781892cec241d01fe87775004bd97b.svg",
     "index.html": "/index.html",
-    "main.61ff7599.css.map": "/static/css/main.61ff7599.css.map",
-    "main.47270c1a.js.map": "/static/js/main.47270c1a.js.map",
+    "static/media/search.svg": "/static/media/search.3acc78de16d7a6d7b4e82593e92e2e34.svg",
+    "static/media/like.svg": "/static/media/like.74cc68ce3f6e433dd3d9e266c94f7655.svg",
+    "main.083ee9c7.css.map": "/static/css/main.083ee9c7.css.map",
+    "main.923e34e8.js.map": "/static/js/main.923e34e8.js.map",
     "787.cfd8f164.chunk.js.map": "/static/js/787.cfd8f164.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.61ff7599.css",
-    "static/js/main.47270c1a.js"
+    "static/css/main.083ee9c7.css",
+    "static/js/main.923e34e8.js"
   ]
 }

@@ -1,0 +1,50 @@
+.collection-card{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 272px;
+    height: 100px;
+    padding: 20px;
+    margin: 0 2px 2px 0;
+}
+
+.collection-card-image{
+    width: 60px;
+height: 60px;
+border-radius: 50%;
+
+
+}
+
+.collection-card-details{
+    width: 92px;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    padding-left: 5px;
+    
+
+}
+.collection-card-details h4{
+  margin: 0;
+}
+
+.collection-card-stats{
+    width: 70px;
+    display: flex;
+    flex-direction: row;
+    height: 60px;
+}
+
+.collection-card-stats img{
+    width: 32px;
+height: 32px;
+
+margin: 17px;
+border-radius: 5px;
+
+/* Inside auto layout */
+
+
+}

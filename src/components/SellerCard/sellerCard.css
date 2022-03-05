@@ -1,0 +1,57 @@
+.seller-card{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 230px;
+height: 100px;
+    padding: 20px;
+    margin: 0;
+}
+
+.seller-card-image{
+    width: 60px;
+height: 60px;
+border-radius: 50%;
+
+
+}
+
+.seller-card-details{
+    width: 92px;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    padding-left: 5px;
+    
+
+}
+.seller-card-details h4{
+  margin: 2px 0 0 0;
+}
+
+.seller-card-details p{
+  margin: 2px 0 0 0;
+}
+
+.seller-card-stats{
+    width: 70px;
+    display: flex;
+    flex-direction: row;
+    height: 60px;
+    align-items: center;
+    justify-content: center;
+}
+
+.seller-card-stats img{
+    width: 19px;
+height: 20px;
+
+border-radius: 0px;
+
+margin: 17px;
+
+/* Inside auto layout */
+
+
+}

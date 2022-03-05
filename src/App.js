@@ -11,12 +11,32 @@ import './App.css'
 // import TypewriterComponent from 'typewriter-effect'
 // import Link from 'next/link'
 import 'animate.css/animate.min.css'
-// import {AnimationOnScroll} from 'react-animation-on-scroll' 
-import FaqComponent from "./components/FAQ/faq";
+import Header from "./components/Header/header";
+import CollectionCardComponent from "./components/CollectionCard/collectioncard";
 
+import SellerCardComponent from "./components/SellerCard/sellerCard";
+// import {AnimationOnScroll} from 'react-animation-on-scroll' 
 
 // import {useMediaQuery} from "react-responsive";
 // import { mediaQueries } from "./responsive";
+
+
+// images 
+// import RenovatioLogo from './images/homepage/renovatio-logo.svg'
+
+import WelcomeImageOne from './images/homepage/welcome-image-1.svg'
+import WelcomeImageTwo from './images/homepage/welcome-image-2.svg'
+import WelcomeImageThree from './images/homepage/welcome-image-3.svg'
+import BinanceImage from './images/homepage/Binance-Logo.svg'
+import PolygonImage from './images/homepage/polygon_token_logo-freelogovectors.svg'
+import CoingeckoImage from './images/homepage/coingecko.svg'
+import CoinmarketCapImage from './images/homepage/coinmarketcap.svg'
+import FooterComponent from "./components/Footer/footer";
+import ImageSliderComponent from "./components/ImageSlider/imageSlider";
+
+
+
+
 export const App  = () => {
 
 
@@ -24,151 +44,133 @@ export const App  = () => {
   
     return (
     <div className="main-body">
-    {/* welcome page */}
-       <div className="welcome-page">
-           <nav className="header-container">
-               <div className="logo-container">
-                   {/* <img src='/'/> */}
-                   <p>accord</p>
-               </div>
-               <div className="navigation-container">
-                   <a href='#contact'><p>Contact</p></a>
-                   <a href='#faq'><p>FAQ</p></a>
-               </div>
-           </nav>
-           <div className="welcome-section">
-               <h2 className="welcome-header">We are a growing list of perople and brands, driving action for peace and prosperity, for people and planet</h2>
-               <div className="welcome-button">
-               <a href="/">
-                    <p>JOIN THE ACCORD</p>
-               </a>
-                  
-               </div>
-           </div>
-       </div>
-       {/* end of welcome  page */}
-
-       {/* pledge page */}
-       <div className="pledge-page">
-           <h2 className="pledge-header">
-               JOIN THE A-LUST BY TAKING THE PLEDGE
-           </h2>
-           <p className="pledge-text">
-                "WE THE PEOPLE OF THE PLANET... <br/>
-                PLEDGE TO TAKE IMMEDIATE4 ACTINO FOR ALL PEOPLE, PLANET AND PROSPERITY. <br/>
-                 <br/>
-                 
-                 WE SUPPORT BRANDS THAT TAKE MEASURABLE ACTION FOR PEOPLE & PROSPERITY."
-
-           </p>
-           <form className="pledge-form" method="POST">
-               <div className="form-name">
-                    <div className="first-name">
-                        <p>First Name</p>
-                        <input placeholder="eg John" type="text"/>
+    <Header/>
+    {/* Welcome Page */}
+        <div className="welcome-page">
+            <div className="welcome-section">
+                <h2>No. 1 NFT Marketplace in the world</h2>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tempor pharetra rutrum. Mauris quis lectus at augue dapibus accumsan sed nec tellus. Curabitur et lacus facilisis, iaculis mauris ac, dignissim nulla. 
+                </p>
+                <div className="welcome-button-section">
+                    <button className="explore-button">
+                        Explore
+                    </button>
+                    <button className="create-button">
+                        Create NFT
+                    </button>
+                </div>
+                <div className="welcome-page-metrics">
+                    <div className="metrics-card-1">
+                        <h4>95k</h4>
+                        <p>Collection</p>
                     </div>
-                    <div className="last-name">
-                        <p>Last Name</p>
-                        <input placeholder="eg John" type="text"/>
+                     <div className="metrics-card-2">
+                        <h4>2500</h4>
+                        <p>Artists</p>
                     </div>
-               </div>
-               <div className="form-email">
-                   <p>Email</p>
-                   <input placeholder="123@gmail.com" type="email"/>
-               </div>
-               <div className="form-country">
-                   <p>Country</p>
-                   <input placeholder="123@gmail.com" type="email"/>
-               </div>
-               <div className="welcome-button">
-                    <a href="/" className="form-button">
-                        <p>PLEDGE</p>
-                    </a>
-               </div>
-               <div className="form-terms">
-                <p>By signing you agree to ONE FUTURE's privacy policy, your information will not be shared or transferred to anyone without your permission.
+                     <div className="metrics-card-3">
+                        <h4>567k</h4>
+                        <p>Artworks</p>
+                    </div>
+                </div>
+            </div>
+            <div className="welcome-image">
+                <img src={WelcomeImageOne} alt="welcome banner" className="welcome-image-1"/>
+                <img src={WelcomeImageTwo} alt="welcome banner" className="welcome-image-2"/>
+                <img src={WelcomeImageThree} alt="welcome banner" className="welcome-image-3"/>
+            </div>
+        </div>
+        
+       {/* End of Welcome Page */}
+        
+        {/* beginning of collection page */}
+        <div className="collections-page">
+            <div className="collections-header">
+                <h2 className="collections-header-text">Top Rated Collections</h2>
+                <div className="collections-type-filter">
+                    <div className="collections-type-filter-inner">
+<p>Ethereum</p>
+                    </div>
+                    
+                </div>
+                <div className="collections-time-filter">
+                   <div className="collections-time-filter-inner">
+ <p>In 7 days</p>
+                   </div>
+                   
+                </div>
+            </div>
+            <div className="collections-container">
+               <CollectionCardComponent/>
+                <CollectionCardComponent/>
+                 <CollectionCardComponent/>
+                  <CollectionCardComponent/>
+                  <CollectionCardComponent/>
+                <CollectionCardComponent/>
+                 <CollectionCardComponent/>
+                  <CollectionCardComponent/>
+            </div>
+            <div className="collections-button-container">
+                <button className="collections-button">
+                    See More
+                </button>
+            </div>
 
-You agree to receive occasional updates about The ACCORD’s campaign and events.
-You can unsubscribe at any time.</p>
-               </div>
-           </form>
-       </div>
+        </div>
+        {/* end of collection page */}
+        {/* check out page */}
+            <div className="checkout-page">
+                <div className="checkout-section">
+                    <h2>Check out our latest drops</h2>
+                <p>Donec rutrum accumsan nulla, aliquet lobortis velit venenatis a. Etiam ut risus quis odio dapibus sagittis. Nullam at tempor elit. Nam ac elementum ante. Ut vestibulum volutpat risus a gravida. Nunc id enim neque.</p>
+                <button className="checkout-button">
+                    Explore
+                </button>
+                </div>
+                <div className="checkout-images">
+                    <ImageSliderComponent/>
+                </div>
+                
+            </div>
+        {/* end of check out page */}
 
-       {/* end of  pledge page */}
-       
 
-       {/* faq page */}
-        <div className="faq-page">
-            <h2 className="faq-header">Have Some Questions?</h2>
-            <div className="faq-section">
-                <FaqComponent/>
-                <FaqComponent/>
-                <FaqComponent/>
+        {/* best seller page */}
+        <div className="bestseller-page">
+            <h2>Best Sellers</h2>
+            <div className="bestseller-container">
+               <SellerCardComponent/>
+               <SellerCardComponent/>
+               <SellerCardComponent/>
+               <SellerCardComponent/>
+               <SellerCardComponent/>
+               <SellerCardComponent/>
+               <SellerCardComponent/>
+               <SellerCardComponent/>
             </div>
         </div>
 
-        {/* end of faq page */}
+        {/* end of best seller page */}
 
-        {/* contact page */}
-            <div className="contact-page">
-            <div className="contact-container">
-            <div className="contact-section-1">
-                                <p>Reach Out:</p>
-                                <p>Hello@theaccord.org</p>
-                            </div>  
-                            <div className="contact-section-2">
-                                <p>Reach Out:</p>
-                                <p>Hello@theaccord.org</p>
-                            </div>
-                            <div className="contact-section-3">
-                                <p>Reach Out:</p>
-                                <p>Hello@theaccord.org</p>
-                            </div> 
-            </div>
-                
+        {/* banner for creator */}
+        <div className="banner-page">
+            <h2>Banner for creators</h2>
+        </div>
+        {/* end of banner */}
 
-            </div>
-        {/* end of contact page */}
+        {/* banner for creator */}
+        <div className="sponsors-page">
+            <img src={BinanceImage} alt='sponsor'/>
+            <img src={PolygonImage} alt='sponsor'/>
+            <img src={CoingeckoImage} alt='sponsor'/>
+            <img src={CoinmarketCapImage} alt='sponsor'/>
+        </div>
+        {/* end of banner */}
 
-        {/* footer page */}
-            <div className="footer-page">
-                <div className="footer-section-1">
-                    <h3>Explore</h3>
-                    <nav className="footer-nav-list">
-                        <a href="/"><p>Home</p></a>
-                        <a href="/"><p>pledge</p></a>
-                        <a href="/"><p>faq</p></a>
-                        <a href="/"><p>contact</p></a>
-                    </nav>
-                    
-                </div>
-                <div className="footer-section-2">
-                    <h3>Social</h3>
-                    <nav className="footer-nav-list">
-                        <a href="/"><p>instagram</p></a>
-                        <a href="/"><p>twitter</p></a>
-                        <a href="/"><p>linkedin</p></a>
-                       
-                    </nav>
-                    
-                </div>
-                <div className="footer-section-3">
-                    <h3>Contact</h3>
-                    <nav className="footer-nav-list">
-                        <a href="/"><p>hello@theaccord.org</p></a>
-                        <a href="/"><p>+1-1234-234-2345</p></a>
-                       
-                    </nav>
-                    
-                </div>
-            </div>
-        {/* end of footer page */}
-       
-
-        
-       
-        
-
+        {/* footer */}
+        <FooterComponent/>
+        {/* end of footer */}
     </div>
     
     

@@ -48,7 +48,7 @@ export const FooterComponent  = () => {
             </div>
             </div>  
             <div className="footer-section-2">
-                <p>Copyright 2022</p>
+                <p>&copy; 2022</p>
             </div>   
                 </div> 
        

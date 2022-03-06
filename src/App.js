@@ -161,7 +161,7 @@ export const App  = () => {
 
         {/* banner for creator */}
         <div className="sponsors-page">
-            <img src={BinanceImage} alt='sponsor'/>
+            <img className="binance-logo" src={BinanceImage} alt='sponsor'/>
             <img src={PolygonImage} alt='sponsor'/>
             <img src={CoingeckoImage} alt='sponsor'/>
             <img src={CoinmarketCapImage} alt='sponsor'/>

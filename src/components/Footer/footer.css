@@ -49,3 +49,63 @@ background: #FFFFFF;
 .footer-section-2 p{
      color: #ffffff;
 }
+
+
+@media (min-width:240px) and (max-width: 900px) {
+    .footer-page{
+    height: auto;
+    width: 100%;
+    background: linear-gradient(180deg, #1E2F8C 0%, #600E75 100%);
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-section-1{
+    height: 90%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    color: #ffffff;
+    padding-top: 100px;
+    padding-left: 10px;
+    width: 100%;
+}
+.footer-section-1 p{
+     color: #ffffff;
+}
+
+.footer-form{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.footer-form input{
+    width: 323px;
+height: 70px;
+
+border: none;
+background: #FFFFFF;
+}
+.footer-navigation{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.footer-section-2{
+    height: 10%;
+   
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    bottom: 0;
+    margin-top: 20px;
+}
+
+.footer-section-2 p{
+     color: #ffffff;
+}
+
+}

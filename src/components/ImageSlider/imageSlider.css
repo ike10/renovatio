@@ -109,3 +109,42 @@ margin: 3px;
 border: 2px solid #600E75 ;
 border-radius: 5px;
 }
+
+@media (min-width:240px) and (max-width: 900px) {
+    .image-slider-container{
+        padding-top: 100px;
+    height: 50vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    padding-left: 20px;
+}
+
+.image-slider-card-1{
+width: 210px;
+height: 340px;
+
+}
+
+.image-slider-card-2{
+  
+width: 210px;
+height: 340px;
+margin-left: -140px;
+margin-top: -50px;
+}
+.image-slider-card-3{
+   
+width: 210px;
+height: 340px;
+margin-left: -150px;
+margin-top: -50px;
+}
+.image-slider-card-info{
+display: flex;
+flex-direction: column;
+height: 30%;
+width: 100%;
+padding: 3px;
+}
+}

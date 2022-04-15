@@ -1,0 +1,125 @@
+.login-page{
+    width: 100vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.login-section{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-info{
+    width: 30%;
+    height: auto;
+}
+.login-info h2{
+    width: 383px;
+height: 108px;
+
+/* font-family: 'Druk Wide Web'; */
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 36px;
+
+/* Gray 1 */
+
+color: #333333;
+
+}
+
+.login-info p{
+    width: 302px;
+
+/* font-family: 'Circular Std'; */
+font-style: normal;
+font-weight: 450;
+font-size: 18px;
+line-height: 23px;
+
+/* Gray 1 */
+
+color: #333333;
+}
+
+.login-form{
+    width: 700px;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    width: 710px;
+height: 388px;
+justify-content: center;
+align-items: center;
+/* Blue-Purple Gradient */
+
+background: linear-gradient(180deg, #1E2F8C 0%, #600E75 100%);
+border-radius: 10px;
+}
+
+.login-form-inner{
+    width: 189px;
+height: auto;
+ margin: 17px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+border-radius: 5px;
+}
+
+.login-form-inner-1{
+    width: 189px;
+height: 235px;
+ margin-bottom: 14px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+background: #FFFFFF;
+border-radius: 5px;
+}
+
+.login-form-inner-1 p{
+    font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 30px;
+text-align: center;
+
+/* Blue-Purple Gradient */
+
+color: #1E2F8C;
+}
+
+
+.login-form-inner-2{
+    width: 189px;
+height: 56px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+background: #FFFFFF;
+border-radius: 5px;
+}
+
+.login-form-inner-2 p{
+    font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 23px;
+/* identical to box height */
+
+text-align: center;
+
+/* Blue-Purple Gradient */
+
+color:#1E2F8C ;
+}

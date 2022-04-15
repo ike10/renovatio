@@ -12,6 +12,7 @@ import OpenIcon from '../../images/header/blackOpenMenuBar.svg'
 // import Link from 'next/link'
 import 'animate.css/animate.min.css'
 import {AnimationOnScroll} from 'react-animation-on-scroll' 
+import { Link } from "react-router-dom";
 
 
 // import {AnimationOnScroll} from 'react-animation-on-scroll' 
@@ -58,22 +59,27 @@ const [menu, setMenu] = useState(false)
     renderMenu()
 }
     <div className="header-container">
-        <div className="header-logo">
+        <Link to='/'><div className="header-logo">
             <img src={RenovatioLogo} alt='logo' />
         </div>
+
+        </Link>
+        
         <div className="header-input">
             <input placeholder="search by user, collection, item, e.t.c..." />
             <img src={SearchIcon} alt='search' />
         </div>
         <div className="header-nav">
-            <p>Explore</p>
-             <p>Create</p>
-             <p>Community</p>
+            <Link to="/explore"><p>Explore</p></Link>
+             <Link to="/create"><p>Create</p></Link>
+              <Link to="/community"><p>Community</p></Link>
+        
         </div>
         <div className="header-button">
-            <p>
-                Sign In
-            </p>
+            <Link to="/login"><p> Sign In</p>
+
+            </Link>
+           
         </div>
         
        

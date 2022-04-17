@@ -8,6 +8,8 @@ import Create from './routes/create/create'
 import Explore from './routes/explore/explore'
 import Login from './routes/login/login'
 import BrowseCollections from './routes/browseCollections/browseCollections';
+import TopRated from './routes/topRated/topRated';
+import ItemScreen from './routes/itemScreen/itemScreen';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -18,6 +20,8 @@ ReactDOM.render(
         <Route path='/login' element={<Login/>}/>
         <Route path='/create' element={<Create/>}/>
         <Route path='/browsecollections' element={<BrowseCollections/>}/>
+        <Route path='/toprated' element={<TopRated/>}/>
+        <Route path='/item' element={<ItemScreen/>}/>
         </Routes>
       </BrowserRouter>
     

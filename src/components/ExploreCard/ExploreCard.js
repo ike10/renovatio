@@ -2,11 +2,13 @@
 import './ExploreCard.css'
 // import {FaArrowDown} from 'react-icons/fa'
 import ExploreImageOne from '../../images/exploreCard/explore-card-image.svg'
-
+import { Link } from "react-router-dom";
 
 export default function ExploreCard () {
 return (
-    <div className="explore-card">
+    
+   <Link to='/item'><div className="explore-card">
+       
             <div className="explore-card-image">
                 <img src={ExploreImageOne} alt="explore card"/>
             </div>
@@ -21,6 +23,6 @@ return (
                 </div>
 
             </div>
-        </div>
+        </div></Link>
         )
 }

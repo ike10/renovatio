@@ -1,0 +1,81 @@
+.top-rated-card{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    height: 96px;
+    justify-content: space-evenly;
+    background: linear-gradient(180deg, rgba(30, 47, 140, 0.07) 0%, rgba(96, 14, 117, 0.07) 100%);
+}
+
+.top-rated-rank{
+    width: 1rem;
+}
+
+.collection-section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.market-cap-section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.avg-price-section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.top-rated-button{
+width: 126px;
+height: 45px;
+margin-left: 50px;
+
+/* Blue-Purple Gradient */
+
+background: linear-gradient(180deg, #1E2F8C 0%, #600E75 100%);
+border-radius: 5px;
+border: none;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+
+/*  */
+font-family: Poppins;
+font-style: normal;
+font-weight: 450;
+font-size: 18px;
+line-height: 23px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+}
+
+.top-rated-button p{
+    font-family: Poppins;
+font-style: normal;
+font-weight: 450;
+font-size: 18px;
+line-height: 23px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+}
+.collection-image{
+    width: 50px;
+height: 50px;
+background: #C4C4C4;
+
+/* Inside auto layout */
+border-radius: 50%;
+margin: 0px 26px;
+}
+

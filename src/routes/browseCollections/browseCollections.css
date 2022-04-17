@@ -261,6 +261,12 @@ text-align: center;
 
 color: #333333;
 }
+.item-bids-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+}
 
 .frame-toggler{
     display: flex;

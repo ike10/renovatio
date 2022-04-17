@@ -1,0 +1,28 @@
+.bids-component{
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.bids-section-1{
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+
+}
+
+.bids-section-2{
+    display: flex;
+    flex-direction: column;
+   padding-top: 10px;
+    
+}
+
+.bids-section-2 p{
+    margin: 2px;
+}

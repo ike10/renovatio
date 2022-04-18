@@ -51,23 +51,23 @@ export default function BrowseCollections () {
         </div>
     </div>
      <div className="browse-collections-metrics">
-                    <div className="metrics-card-1">
+                    <div className="browse-collections-metrics-card-1">
                         <h4>34.5k</h4>
                         <p>Owners</p>
                     </div>
-                     <div className="metrics-card-2">
+                     <div className="browse-collections-metrics-card-2">
                         <h4>95k</h4>
                         <p>Items</p>
                     </div>
-                     <div className="metrics-card-3">
+                     <div className="browse-collections-metrics-card-3">
                         <h4>35.3M</h4>
                         <p>Market Cap</p>
                     </div>
-                    <div className="metrics-card-4">
+                    <div className="browse-collections-metrics-card-4">
                         <h4>28.2M</h4>
                         <p>Total Volume</p>
                     </div>
-                    <div className="metrics-card-5">
+                    <div className="browse-collections-metrics-card-5">
                         <h4>16k</h4>
                         <p>Highest Sale</p>
                     </div>

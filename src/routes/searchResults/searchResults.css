@@ -1,7 +1,7 @@
 
 
 
-.explore-page{
+.search-results-page{
     width: 100vw;
     height: auto;
     display: flex;
@@ -10,13 +10,17 @@
  overflow-x: hidden;
 }
 
-.explore-section-header{
+.search-results-section-header{
     width: 100%;
     height: auto;
     margin-top: 80px;
     margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
-.explore-section-header h1{
+.search-results-section-header h1{
 font-style: normal;
 font-weight: 700;
 font-size: 40px;
@@ -32,6 +36,27 @@ background: linear-gradient(180deg, #1E2F8C 0%, #600E75 100%);
 -webkit-text-fill-color: transparent;
 background-clip: text;
 }
+
+
+.frame-toggler{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 10rem;
+}
+
+.frame-toggler-active{
+    border-bottom: #1E2F8C 1px solid;
+    cursor: pointer;
+}
+
+.frame-toggler-passive{
+    border-bottom: none;
+    cursor: pointer;
+}
+
+
 .filter-container{
     display: flex;
     flex-direction: row;
@@ -73,12 +98,8 @@ background: #FFFFFF;
 border-radius: 5px;
 border: #1E2F8C solid 2px;
 }
-.filter-button-container{
-    display: flex;
-    flex-direction: row;
 
-}
-.explore-container{
+.search-results-container{
     width: 100%;
     height: auto;
     display: flex;
@@ -126,16 +147,26 @@ line-height: 23px;
 color: #FFFFFF;
 }
 
-@media (min-width:240px) and (max-width: 900px) {
-    .explore-page{
-    width: 100vw;
+.collections-container{
+    width: 100%;
     height: auto;
     display: flex;
-    flex-direction: column;
-     margin:0 auto;
- overflow-x: hidden;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
 }
-    .explore-section-header h1{
+
+.items-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+@media (min-width:240px) and (max-width: 900px) {
+    .search-results-section-header h1{
 font-style: normal;
 font-weight: 700;
 font-size: 30px;
@@ -148,10 +179,10 @@ line-height: 40px;
 .filter-container{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
     width: 100%;
-    background-color: #FFFFFF;
     margin: 0;
     padding: 0;
 }
@@ -189,26 +220,15 @@ background: #FFFFFF;
 border-radius: 5px;
 border: #1E2F8C solid 2px;
 }
-.filter-button-container{
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-}
 .filter-button p{
     font-size: 12px;
 }
 
-.explore-container{
+.search-results-container{
     width: 100%;
-    padding: 0;
     height: auto;
     display: flex;
     flex-direction: column;
     margin-left: 0rem;
-    margin: 0;
-    justify-content: center;
-    padding-left: 10px;
 }
 }

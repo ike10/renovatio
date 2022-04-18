@@ -10,6 +10,7 @@ return (
     <div className="items-container">
             <div className="filter-container">
                 <h4>Filter by:</h4>
+                <div className="filter-button-container">
                 <div className="filter-button">
                     <p>Blockchain </p>
                     <BsChevronBarDown size={20}/>
@@ -29,6 +30,7 @@ return (
                     <p>Time Frame </p>
                     <BsChevronBarDown size={20}/>
                     
+                </div>
                 </div>
             </div>
             <div className='explore-container'>

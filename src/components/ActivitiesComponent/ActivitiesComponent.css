@@ -5,7 +5,7 @@
     flex-direction: column;
 }
 
-.filter-container{
+.activities-filter-container{
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -13,7 +13,7 @@
     width: 90%;
 }
 
-.filter-container h4{
+.activities-filter-container h4{
 font-style: normal;
 font-weight: 450;
 font-size: 18px;
@@ -28,7 +28,7 @@ color: #000000;
 
 }
 
-.filter-button{
+.activities-filter-button{
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -59,4 +59,16 @@ border: #1E2F8C solid 2px;
 .activities-table{
     width: 100%;
     height: auto;
+}
+
+@media (min-width:240px) and (max-width: 800px) {
+    .activities-container{
+        
+    }
+    .activities-filter-button-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
 }

@@ -37,10 +37,10 @@ const [menu, setMenu] = useState(false)
                             }}><p>Close</p></div> */}
                             <ul className="sidebar-panel-navigation" style={{ listStyle: "none" }}>
 
-                                <li><a href="#welcome-page" className="lope">Explore</a></li>
-                                <li><a href="#about-page" className="lope">Create</a></li>
-                                <li><a href="#tokenomics-page" className="lope">Community</a></li>
-                                <li><a href="#roadmap" className="lope">Sign In</a></li>
+                                <li><Link to='/explore'><a href="#welcome-page" className="lope">Explore</a></Link></li>
+                                <li><Link to='/create'><a href="#about-page" className="lope">Create</a></Link></li>
+                                <li><Link to='/'><a href="#tokenomics-page" className="lope">Community</a></Link></li>
+                                <li><Link to='/login'><a href="#roadmap" className="lope">Sign In</a></Link></li>
                                 
                             </ul>
                         </div>

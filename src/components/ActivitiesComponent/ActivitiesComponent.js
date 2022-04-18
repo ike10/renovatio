@@ -4,22 +4,24 @@ import {BsChevronBarDown} from 'react-icons/bs'
 export default function ActivitiesComponent(){
     return (
         <div className="activities-container">
-            <div className="filter-container">
+            <div className="activities-filter-container">
                 <h4>Filter by:</h4>
-                <div className="filter-button">
+                <div className="activities-filter-button-container">
+                <div className="activities-filter-button">
                     <p>Blockchain </p>
                     <BsChevronBarDown size={20}/>
                     
                 </div>
-                <div className="filter-button">
+                <div className="activities-filter-button">
                     <p>Event Type </p>
                     <BsChevronBarDown size={20}/>
                     
                 </div>
-                <div className="filter-button">
+                <div className="activities-filter-button">
                     <p>Time Frame </p>
                     <BsChevronBarDown size={20}/>
                     
+                </div>
                 </div>
             </div>
             <div className='main-container'>

@@ -14,6 +14,7 @@ export default function Explore () {
     <h1>Explore Collection</h1>
     <div className="filter-container">
         <h4>Filter by:</h4>
+        <div className="filter-button-container">
         <div className="filter-button">
             <p>Blockchain </p>
             <BsChevronBarDown size={20}/>
@@ -33,6 +34,7 @@ export default function Explore () {
             <p>Time Frame </p>
              <BsChevronBarDown size={20}/>
             
+        </div>
         </div>
 
     </div>

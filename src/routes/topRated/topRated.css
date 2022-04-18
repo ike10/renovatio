@@ -163,3 +163,16 @@ color: #333333;
     flex-wrap: wrap;
     margin-left: 2rem;
 }
+
+@media (min-width:240px) and (max-width: 900px) {
+    .explore-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-left: 0;
+    
+}
+}

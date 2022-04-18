@@ -1,7 +1,7 @@
 import React from "react";
 
 import './App.css'
-
+import {BsChevronBarDown} from 'react-icons/bs'
 
 
 
@@ -33,6 +33,7 @@ import CoingeckoImage from './images/homepage/coingecko.svg'
 import CoinmarketCapImage from './images/homepage/coinmarketcap.svg'
 import FooterComponent from "./components/Footer/footer";
 import ImageSliderComponent from "./components/ImageSlider/imageSlider";
+import { Link } from "react-router-dom";
 
 
 
@@ -53,12 +54,12 @@ export const App  = () => {
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tempor pharetra rutrum. Mauris quis lectus at augue dapibus accumsan sed nec tellus. Curabitur et lacus facilisis, iaculis mauris ac, dignissim nulla. 
                 </p>
                 <div className="welcome-button-section">
-                    <button className="explore-button">
+                    <Link to='/explore'><button className="explore-button">
                         Explore
-                    </button>
-                    <button className="create-button">
+                    </button></Link>
+                    <Link to='/create'><button className="create-button">
                         Create NFT
-                    </button>
+                    </button></Link>
                 </div>
                 <div className="welcome-page-metrics">
                     <div className="metrics-card-1">
@@ -88,16 +89,21 @@ export const App  = () => {
         <div className="collections-page">
             <div className="collections-header">
                 <h2 className="collections-header-text">Top Rated Collections</h2>
-                <div className="collections-type-filter">
+                <div className="collections-header-filter">
+                    <div className="collections-type-filter">
                     <div className="collections-type-filter-inner">
 <p>Ethereum</p>
+<BsChevronBarDown size={20}/>
                     </div>
                     
                 </div>
                 <div className="collections-time-filter">
                    <div className="collections-time-filter-inner">
  <p>In 7 days</p>
+ <BsChevronBarDown size={20}/>
                    </div>
+                </div>
+                
                    
                 </div>
             </div>
@@ -124,9 +130,9 @@ export const App  = () => {
                 <div className="checkout-section">
                     <h2>Check out our latest drops</h2>
                 <p>Donec rutrum accumsan nulla, aliquet lobortis velit venenatis a. Etiam ut risus quis odio dapibus sagittis. Nullam at tempor elit. Nam ac elementum ante. Ut vestibulum volutpat risus a gravida. Nunc id enim neque.</p>
-                <button className="checkout-button">
+                <Link to='/explore'><button className="checkout-button">
                     Explore
-                </button>
+                </button></Link>
                 </div>
                 <div className="checkout-images">
                     <ImageSliderComponent/>
@@ -155,7 +161,16 @@ export const App  = () => {
 
         {/* banner for creator */}
         <div className="banner-page">
-            <h2>Banner for creators</h2>
+            <div className="banner-section">
+                <h2>join the <br/> NFT RAVE</h2>    
+                <p>Don't be left out of the craaaazzzzeee <br/> Bring out the creative genius in yoooouuuu</p>
+                <Link to='/create'><div className="banner-button">
+                    <p>Start Creating</p>
+                </div></Link>
+                
+            </div>
+            
+            
         </div>
         {/* end of banner */}
 

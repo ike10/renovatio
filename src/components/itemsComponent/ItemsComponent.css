@@ -12,6 +12,11 @@
     align-items: center;
     width: 90%;
 }
+.filter-button-container{
+    display: flex;
+    flex-direction: row;
+  
+}
 
 .filter-container h4{
 font-style: normal;
@@ -54,4 +59,19 @@ border: #1E2F8C solid 2px;
     flex-direction: row;
     flex-wrap: wrap;
     margin-left: 2rem;
+}
+
+@media (min-width:240px) and (max-width: 800px) {
+    .filter-button-container{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 3rem;
+  
+}
+.filter-container{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3rem;
+}
+
 }

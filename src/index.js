@@ -10,6 +10,7 @@ import Login from './routes/login/login'
 import BrowseCollections from './routes/browseCollections/browseCollections';
 import TopRated from './routes/topRated/topRated';
 import ItemScreen from './routes/itemScreen/itemScreen';
+import SearchResults from './routes/searchResults/searchResults'
 
 ReactDOM.render(
   <React.StrictMode>
@@ -22,6 +23,7 @@ ReactDOM.render(
         <Route path='/browsecollections' element={<BrowseCollections/>}/>
         <Route path='/toprated' element={<TopRated/>}/>
         <Route path='/item' element={<ItemScreen/>}/>
+        <Route path='/searchresults' element={<SearchResults/>}/>
         </Routes>
       </BrowserRouter>
     

@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.9db46c58.css",
-    "main.js": "/static/js/main.6e3abe6f.js",
+    "main.css": "/static/css/main.401e7056.css",
+    "main.js": "/static/js/main.1152b7bd.js",
     "static/js/787.cfd8f164.chunk.js": "/static/js/787.cfd8f164.chunk.js",
     "static/media/welcome-image-1.svg": "/static/media/welcome-image-1.77a1d553b4e97f516d8300eb4547f953.svg",
     "static/media/browseCollections.svg": "/static/media/browseCollections.f08bc229188d4bd66cac2c76a9cfdea3.svg",
@@ -13,9 +13,11 @@
     "static/media/explore-card-image.svg": "/static/media/explore-card-image.203faeb2bf9757135948e86f1bc01cc9.svg",
     "static/media/bidImage.svg": "/static/media/bidImage.b0d3318020fee2922efd45e610227d73.svg",
     "static/media/collectioncardimage.svg": "/static/media/collectioncardimage.1de6304c502aa597582281cb52e2472a.svg",
+    "static/media/Circular Std Bold.ttf": "/static/media/Circular Std Bold.70b1780ab02d1d1ac189.ttf",
     "static/media/coingecko.svg": "/static/media/coingecko.5d31f13cb3547e26f37e61739cd50167.svg",
     "static/media/polygon_token_logo-freelogovectors.svg": "/static/media/polygon_token_logo-freelogovectors.a970f0812c61da2d4fea68174baf2878.svg",
     "static/media/coinmarketcap.svg": "/static/media/coinmarketcap.54029472e7cb3b8a0fc019a9c91a495f.svg",
+    "static/media/Druk Wide Web Super Regular.ttf": "/static/media/Druk Wide Web Super Regular.6ef90b65cd47ab3950dc.ttf",
     "static/media/ethereumLogin.svg": "/static/media/ethereumLogin.cfac958b4c934ed5e5543ed5e076e3c7.svg",
     "static/media/ethereumLogo.svg": "/static/media/ethereumLogo.683c1b31af5cc69bbb45f705b9be6215.svg",
     "static/media/currency.svg": "/static/media/currency.af781892cec241d01fe87775004bd97b.svg",
@@ -24,15 +26,14 @@
     "index.html": "/index.html",
     "static/media/itemMenu.svg": "/static/media/itemMenu.7c176f393cbb5147402ebaa2135e4d99.svg",
     "static/media/search.svg": "/static/media/search.3acc78de16d7a6d7b4e82593e92e2e34.svg",
-    "static/media/like.svg": "/static/media/like.74cc68ce3f6e433dd3d9e266c94f7655.svg",
     "static/media/add_photo_alternate.svg": "/static/media/add_photo_alternate.19a677a52d70e55f7e52b02d9e463dc1.svg",
     "static/media/blackOpenMenuBar.svg": "/static/media/blackOpenMenuBar.003019a7826ee09ef04edd4cc78b1141.svg",
-    "main.9db46c58.css.map": "/static/css/main.9db46c58.css.map",
-    "main.6e3abe6f.js.map": "/static/js/main.6e3abe6f.js.map",
+    "main.401e7056.css.map": "/static/css/main.401e7056.css.map",
+    "main.1152b7bd.js.map": "/static/js/main.1152b7bd.js.map",
     "787.cfd8f164.chunk.js.map": "/static/js/787.cfd8f164.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9db46c58.css",
-    "static/js/main.6e3abe6f.js"
+    "static/css/main.401e7056.css",
+    "static/js/main.1152b7bd.js"
   ]
 }

@@ -28,9 +28,10 @@
 }
 
 .footer-form h4{
-    /* font-family: 'Circular Std'; */
+    /* font-family: Circular Std; */
 font-style: normal;
 font-weight: 700;
+font-family: Circular Std;
 font-size: 24px;
 /* identical to box height, or 44px */
 

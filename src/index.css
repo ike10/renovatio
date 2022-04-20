@@ -1,6 +1,17 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap') */
 
 @import url(//db.onlinewebfonts.com/c/2f8845bdde42e943355a39765c5be5c0?family=Druk+Wide+Web+Super);
+
+
+@font-face {
+    font-family: Druk Wide Web Super;
+    src: url('./fonts/DrukWide/Druk\ Wide\ Web\ Super\ Regular.ttf');
+}
+
+@font-face {
+    font-family: Circular Std;
+    src: url('./fonts/CircularStdBold/Circular\ Std\ Bold.ttf');
+}
 body {
   width:100%;
   display: flex;

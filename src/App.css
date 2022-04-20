@@ -39,10 +39,10 @@ background-color: rgba(0, 0, 0, 1);
 
 .welcome-section h2{
     /* width: 510px; */
-height: 122px;
+height: auto;
 
-
-font-family: Poppins;
+margin-top: 0;
+font-family: Druk Wide Web Super;
 font-style: normal;
 font-weight: bold;
 font-size: 48px;
@@ -302,7 +302,7 @@ z-index: 10;
 
 .collections-header-text{
 width: 60%;
-font-family: Poppins;
+font-family: Druk Wide Web Super;
 font-style: normal;
 font-weight: bold;
 font-size: 36px;
@@ -402,11 +402,7 @@ height: 53px;
 color: #ffffff;
 border: none;
 /* Blue-Purple Gradient */
-font-family: Poppins;
-font-style: normal;
-font-weight: 450;
-font-size: 18px;
-line-height: 23px;
+
 background: linear-gradient(180deg, #1E2F8C 0%, #600E75 100%);
 border-radius: 5px;
 }
@@ -439,8 +435,9 @@ flex-direction: row;
 }
 
 .checkout-section h2{
-    height: 122px;
-font-family: Poppins;
+    height: auto;
+    width: 90%;
+font-family: Druk Wide Web Super;
 font-style: normal;
 font-weight: bold;
 font-size: 48px;
@@ -504,6 +501,10 @@ flex-direction: column;
 padding-left: 146px;
 padding-top: 69px;
 }
+
+.bestseller-page h2{
+    font-family: Druk Wide Web Super;
+}
 .bestseller-container{
     width: 80%;
     display: flex;
@@ -526,7 +527,7 @@ background-image: url('./images/homepage/nftRave.svg');
 
 
 .banner-page h2{
-/* font-family: 'Druk Wide Web'; */
+font-family: Druk Wide Web Super;
 font-style: normal;
 font-weight: 700;
 font-size: 60px;

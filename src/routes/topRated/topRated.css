@@ -37,21 +37,16 @@ border-radius: 10px;
     justify-content: space-around;
     align-items: center;
 }
-.top-rated-section-header h1{
+.top-rated-section-header h2{
+font-family: Druk Wide Web Super;
 font-style: normal;
 font-weight: 700;
-font-size: 40px;
-line-height: 40px;
+font-size: 36px;
+line-height: 36px;
 /* identical to box height */
 
-text-align: center;
 
-/* Blue-Purple Gradient */
-
-background: linear-gradient(180deg, #1E2F8C 0%, #600E75 100%);
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
-background-clip: text;
+color: #000000;
 }
 
 .top-rated-filter-container{

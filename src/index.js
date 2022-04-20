@@ -11,6 +11,8 @@ import BrowseCollections from './routes/browseCollections/browseCollections';
 import TopRated from './routes/topRated/topRated';
 import ItemScreen from './routes/itemScreen/itemScreen';
 import SearchResults from './routes/searchResults/searchResults'
+import './fonts/CircularStdBold/Circular Std Bold.ttf'
+import './fonts/DrukWide/Druk Wide Web Super Regular.ttf'
 
 ReactDOM.render(
   <React.StrictMode>

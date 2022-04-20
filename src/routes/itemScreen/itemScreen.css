@@ -66,6 +66,13 @@ border-radius: 10px;
     align-items: center;
 }
 
+.item-title h2{
+    font-weight: 700;
+font-size: 24px;
+line-height: 24px;
+font-family: Druk Wide Web Super;
+}
+
 .item-price{
     display: flex;
     flex-direction: row;

@@ -2,7 +2,7 @@ import React from "react";
 import './collectioncard.css'
 
 import CollectionCardImage from '../../images/collectioncard/collectioncardimage.svg'
-import LikeImage from '../../images/collectioncard/like.svg'
+// import LikeImage from '../../images/collectioncard/like.svg'
 import CurrencyImage from '../../images/collectioncard/currency.svg'
 
 export const CollectionCardComponent  = () => {
@@ -20,7 +20,7 @@ export const CollectionCardComponent  = () => {
                     </div>
                     <div className="collection-card-stats">
                         <img className="collections-currency" src={CurrencyImage} alt="currency"/>
-                          <img  className="collections-favorite-button" src={LikeImage} alt="likes"/>
+                          {/* <img  className="collections-favorite-button" src={LikeImage} alt="likes"/> */}
                     </div>
                 </div> 
        

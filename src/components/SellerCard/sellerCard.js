@@ -1,8 +1,9 @@
 import React from "react";
 import './sellerCard.css'
+import CurrencyImage from '../../images/collectioncard/currency.svg'
 
 import CollectionCardImage from '../../images/sellerCard/collectioncardimage.svg'
-import LikeImage from '../../images/sellerCard/like.svg'
+// import LikeImage from '../../images/sellerCard/like.svg'
 // import CurrencyImage from '../../images/collectioncard/currency.svg'
 
 export default function SellerCardComponent   () {
@@ -20,7 +21,7 @@ export default function SellerCardComponent   () {
                     </div>
                     <div className="seller-card-stats">
                         
-                          <img alt="main-slider" className="seller-favorite-button" src={LikeImage}/>
+                          <img alt="main-slider" className="seller-favorite-button" src={CurrencyImage}/>
                     </div>
                 </div> 
        

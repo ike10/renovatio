@@ -53,6 +53,7 @@
 .main-item-section-1 img{
     width: 655px;
 height: 774px;
+cursor: pointer;
 
 border-radius: 10px;
 }

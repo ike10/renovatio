@@ -7,6 +7,9 @@ import {BsChevronBarDown} from 'react-icons/bs'
 // import ExploreImageOne from '../../images/exploreCard/explore-card-image.svg'
 import ExploreCard from "../../components/ExploreCard/ExploreCard";
 export default function Explore () {
+
+  
+
   return (
     <div className="explore-page">
     <Header/>

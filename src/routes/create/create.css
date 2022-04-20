@@ -1,0 +1,360 @@
+.create-page{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+    margin: 0;
+    /* align-items: center;
+    justify-content: center; */
+    height: auto;
+}
+
+.form-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.create-form{
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+.create-form-inner-1{
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.create-form-inner-1 div{
+    height: auto;
+    margin: 10px;
+    width: 418px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.create-form-media{
+    width: 95%;
+    height: 354px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.create-form-media img{
+    width: 162px;
+height: 162px;
+}
+
+.create-form-media input{
+    border: none;
+}
+
+.create-form-media input[type=file]::file-selector-button {
+ width: 167px;
+height: 42px;
+border: none;
+border-radius: 10px;
+color: #ffffff;
+
+/* Blue-Purple Gradient */
+
+background: linear-gradient(180deg, #1E2F8C 0%, #600E75 100%);
+}
+
+.create-form-name{
+    width: 418px;
+height: 57px;
+border: 1px solid #000000;
+box-sizing: border-box;
+border-radius: 5px;
+}
+
+.create-form-description{
+    width: 418px;
+height: 216px;
+
+border: 1px solid #000000;
+box-sizing: border-box;
+border-radius: 5px;
+}
+
+.create-form-inner-2{
+   width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.create-form-inner-2 div{
+  margin: 10px;
+}
+
+.create-form-price{
+    width: 418px;
+height: 57px;
+margin: 0;
+border: 1px solid #000000;
+box-sizing: border-box;
+border-radius: 5px;
+}
+
+.create-form-collection{
+    width: 418px;
+height: 57px;
+background: #ffffff;
+border: 1px solid #000000;
+box-sizing: border-box;
+border-radius: 5px;
+}
+
+.nft-quantity{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin: 0;
+    margin-top: 20px;
+
+}
+
+
+
+.nft-quantity div{
+    display: flex;
+    margin: 0;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.nft-quantity input{
+    height: 57px;
+    margin: 10px 0 0 0;
+    border: 1px solid #000000;
+box-sizing: border-box;
+border-radius: 5px;
+}
+
+.create-form-quantity{
+    height: 57px;
+    margin: 10px 0 0 0;
+    border: 1px solid #000000;
+box-sizing: border-box;
+border-radius: 5px;
+width: 180px;
+background: #ffffff;
+}
+
+.nft-quantity p{
+    margin: 0px;
+}
+
+.create-item-button{
+    width: 519px;
+height: 57px;
+margin-top: 60px;
+
+/* Blue-Purple Gradient */
+
+background: linear-gradient(180deg, #1E2F8C 0%, #600E75 100%);
+border-radius: 5px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+margin-bottom: 5rem;
+}
+
+.create-item-button p{
+    /* font-family: 'Circular Std'; */
+font-style: normal;
+font-weight: 450;
+font-size: 18px;
+line-height: 23px;
+/* identical to box height */
+
+
+/* white */
+
+color: #FFFFFF;
+
+}
+
+@media (min-width:240px) and (max-width: 800px) {
+    .create-form-inner-1{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.create-form{
+    width: 100%;
+}
+.create-form-media{
+    width: 95%;
+    height: 354px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.create-form-media img{
+    width: 162px;
+height: 162px;
+}
+
+.create-form-inner-1 div{
+    height: auto;
+    margin: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.create-form-description{
+    width: 100%;
+height: 216px;
+
+border: 1px solid #000000;
+box-sizing: border-box;
+border-radius: 5px;
+}
+
+.create-form-inner-2{
+   width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-left: 10px;
+}
+
+.create-form-inner-2 div{
+  margin: 0;
+  margin-top: 10px;
+   display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.nft-quantity div{
+    display: flex;
+    margin: 0;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.create-item-button{
+    width: 80%;
+height: 57px;
+margin-top: 60px;
+
+/* Blue-Purple Gradient */
+
+background: linear-gradient(180deg, #1E2F8C 0%, #600E75 100%);
+border-radius: 5px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+margin-bottom: 5rem;
+}
+
+
+.create-form-inner-2{
+   width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.create-form-inner-2 div{
+  margin-top: 10px;
+   display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.create-form-price{
+    width: 90%;
+height: 57px;
+margin: 0;
+border: 1px solid #000000;
+box-sizing: border-box;
+border-radius: 5px;
+}
+
+.create-form-name{
+    width: 90%;
+height: 57px;
+border: 1px solid #000000;
+box-sizing: border-box;
+border-radius: 5px;
+}
+
+.create-form-description{
+    width: 90%;
+height: 216px;
+
+border: 1px solid #000000;
+box-sizing: border-box;
+border-radius: 5px;
+}
+.create-form-price{
+    width: 90%;
+height: 57px;
+margin: 0;
+border: 1px solid #000000;
+box-sizing: border-box;
+border-radius: 5px;
+}
+
+.create-form-collection{
+    width: 90%;
+height: 57px;
+
+border: 1px solid #000000;
+box-sizing: border-box;
+border-radius: 5px;
+}
+
+.create-form-quantity{
+    height: 57px;
+    margin: 10px 0 0 0;
+    border: 1px solid #000000;
+box-sizing: border-box;
+border-radius: 5px;
+width: 90%;
+background: #ffffff;
+}
+
+}

@@ -27,6 +27,17 @@
     margin-left: 150px;
 }
 
+.footer-form h4{
+    /* font-family: 'Circular Std'; */
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+/* identical to box height, or 44px */
+
+margin: 0;
+color: #FFFFFF;
+}
+
 .footer-input-container{
     width: 350px;
 height: 63px;
@@ -131,6 +142,7 @@ border-radius: 5px;
     display: flex;
     flex-direction: column;
     margin-left: 20px;
+    margin-top: 25px;
 }
 
 
@@ -156,10 +168,11 @@ border-radius: 5px;
      color: #ffffff;
 }
 .footer-section-2 h5{
-    width: 50%;
+    width: 40%;
     color: #ffffff;
     justify-content: flex-start;
-    display: flex
+    display: flex;
+    margin-left: 10px;
     
 }
 

@@ -62,8 +62,7 @@ border-radius: 10px;
 .header-nav p{
     width: 80px;
 height: 23px;
-left: 876px;
-
+margin-left: 5px; 
 
 font-family: Poppins;
 font-style: normal;
@@ -75,6 +74,9 @@ line-height: 23px;
 
 color: #000000;
 
+}
+.header-nav p:hover{
+    border-bottom: #1E2F8C 1px solid;
 }
 
 .header-button{
@@ -99,9 +101,13 @@ font-weight: 450;
 font-size: 18px;
 line-height: 23px;
 /* identical to box height */
-
+cursor: pointer;
 
 color: #FFFFFF;
+}
+
+.header-button:hover{
+    background: #1E2F8C;
 }
 
 .header-button p{

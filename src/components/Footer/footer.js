@@ -44,7 +44,8 @@ export const FooterComponent  = () => {
                
             </nav>
             <div className="footer-form">
-                <h4>Subscribe</h4>
+                <h4>Don't be left out</h4>
+                <p>subscribe to our newsletter and stay updated</p>
                 <div className="footer-input-container">
                      <input placeholder="example@abc.com" className="footer-input" />
                     <div className="footer-input-button">

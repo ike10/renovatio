@@ -53,6 +53,7 @@ export default function TopRated () {
                 <p>Collection</p>
                 <p>Market Cap</p>
                 <p>Avg Price</p>
+                <p></p>
             </div>
             <div className="table-body">
                 <TopRatedCard/>

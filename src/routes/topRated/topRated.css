@@ -6,7 +6,9 @@
     justify-content: center;
     align-items: center;
 }
-
+.top-rated-page p{
+    font-family: Circular Std;
+}
 .top-rated-header{
     width: 100%;
 height: 300px;
@@ -148,6 +150,12 @@ color: #333333;
     align-items: center;
     margin: 0;
     height: 96px;
+    justify-content: space-evenly;
+    padding-left: 1rem;
+}
+.table-header p{
+    font-family: Circular Std;
+    width: 20%;
 }
 
 .explore-container{

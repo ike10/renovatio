@@ -61,9 +61,10 @@ border: #1E2F8C solid 2px;
 }
 
 .activities-table{
-    width: 100%;
+    width: 80%;
     height: auto;
-    margin-top: 20px;
+    margin-top: 3rem;
+    margin-bottom: 5rem;
 }
 
 .activities-table-header{
@@ -71,18 +72,28 @@ border: #1E2F8C solid 2px;
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
+
+}
+
+.activities-table-header p{
+    width: 15%;
 
 }
 
 @media (min-width:240px) and (max-width: 800px) {
-    .activities-container{
-        
-    }
+ 
     .activities-filter-button-container{
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
+
+    .activities-table{
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 5rem;
+}
 }

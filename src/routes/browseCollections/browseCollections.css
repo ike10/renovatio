@@ -65,6 +65,7 @@ background-clip: text;
     display: flex;
     flex-direction: row;
     margin-right: 10px;
+    font-family: Circular Std;
 }
 
 .creator-info div{
@@ -106,7 +107,7 @@ border-radius: 5px;
 
 
 
-.browse-metrics-card-1{
+.browse-collections-metrics-card-1{
     padding-right: 10px;
     border-right-width: 2px;
     width: 150px;

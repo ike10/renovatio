@@ -1,7 +1,8 @@
 import './ActivitiesComponent.css'
 import {BsChevronBarDown} from 'react-icons/bs'
 // import TopRated from '../../routes/topRated/topRated'
-import TopRatedCard from '../topRatedCard/topRatedCard'
+// import TopRatedCard from '../topRatedCard/topRatedCard'
+import ActivitiesCard from '../ActivitiesCard/ActivitiesCard'
 
 export default function ActivitiesComponent(){
     return (
@@ -29,21 +30,23 @@ export default function ActivitiesComponent(){
             <div className='main-container'>
                 <div className='activities-table'>
 <div className="activities-table-header">
-                <p>#</p>
-                <p>Collection</p>
-                <p>Market Cap</p>
-                <p>Avg Price</p>
+                <p>Item</p>
+                <p>Price</p>
+                <p>Quantity</p>
+                <p>From</p>
+                <p>To</p>
+                <p>Purpose</p>
 
             
             
             </div>
             <div className="activities-table-body">
-                <TopRatedCard/>
-                <TopRatedCard/>
-                <TopRatedCard/>
-                <TopRatedCard/>
-                <TopRatedCard/>
-                <TopRatedCard/>
+               <ActivitiesCard/>
+               <ActivitiesCard/>
+               <ActivitiesCard/>
+               <ActivitiesCard/>
+               <ActivitiesCard/>
+               <ActivitiesCard/>
             </div>
                 </div>
                

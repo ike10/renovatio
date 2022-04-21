@@ -4,27 +4,34 @@
     flex-direction: row;
     align-items: center;
     height: 96px;
+    font-family: Circular Std;
     justify-content: space-evenly;
     background: linear-gradient(180deg, rgba(30, 47, 140, 0.07) 0%, rgba(96, 14, 117, 0.07) 100%);
 }
+.top-rated-card p{
+    font-family: Circular Std;
+}
 
 .top-rated-rank{
-    width: 1rem;
+    width: 10%;
 }
 
 .collection-section{
+    width: 20%;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
 }
 .market-cap-section{
+    width: 20%;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
 }
 .avg-price-section{
+    width: 20%;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -58,8 +65,12 @@ line-height: 23px;
 color: #FFFFFF;
 }
 
+.top-rated-button-container{
+    width: 20%;
+}
+
 .top-rated-button p{
-    font-family: Poppins;
+    font-family: Circular Std;
 font-style: normal;
 font-weight: 450;
 font-size: 18px;

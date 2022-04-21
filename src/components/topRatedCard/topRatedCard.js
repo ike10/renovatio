@@ -17,9 +17,12 @@ export default function TopRatedCard (){
                 <img src={EthereumLogo} alt="toprated"/>
                 <p>9.52</p>
             </div>
-            <div className="top-rated-button">
+            <div className='top-rated-button-container'>
+                <div className="top-rated-button">
                 <p>Buy</p>
             </div>
+            </div>
+            
         </div>
     )
 }

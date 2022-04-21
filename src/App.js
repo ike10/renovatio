@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 
 import './App.css'
 import {BsChevronBarDown} from 'react-icons/bs'
@@ -39,7 +39,48 @@ import { Link } from "react-router-dom";
 
 
 export const App  = () => {
+const [isBlockchainDropdown, setIsBlockchainDropdown] = useState(false)
+const [isTImeFilterDropdown, setIsTimeFilterDropdown] = useState(false)
 
+const renderBlockchainDropdown =()=>{
+    if (isBlockchainDropdown){
+        return(
+            <div className="collections-header-filter-dropdown">
+                        <div className="collections-header-filter-dropdown-card">
+                            <p>Ethereum</p>
+                        </div>
+                        <div className="collections-header-filter-dropdown-card">
+                            <p>Polygon</p>
+                        </div>
+                        <div className="collections-header-filter-dropdown-card">
+                            <p>Binance</p>
+                        </div>
+                    </div>
+        )
+    }else{
+        return null
+    }
+}
+
+const renderTimeFilter =()=>{
+    if (isTImeFilterDropdown){
+        return(
+            <div className="collections-header-filter-dropdown">
+                        <div className="collections-header-filter-dropdown-card">
+                            <p>7days</p>
+                        </div>
+                        <div className="collections-header-filter-dropdown-card">
+                            <p>1 Month</p>
+                        </div>
+                        <div className="collections-header-filter-dropdown-card">
+                            <p>2 Months</p>
+                        </div>
+                    </div>
+        )
+    }else{
+        return null
+    }
+}
 
 
   
@@ -90,20 +131,35 @@ export const App  = () => {
             <div className="collections-header">
                 <h2 className="collections-header-text">Top Rated Collections</h2>
                 <div className="collections-header-filter">
+                   
+                    {/* end */}
                     <div className="collections-type-filter">
-                    <div className="collections-type-filter-inner">
-<p>Ethereum</p>
-<BsChevronBarDown size={20}/>
+                    <div onClick={()=>{
+                        setIsTimeFilterDropdown(false)
+                        setIsBlockchainDropdown(!isBlockchainDropdown)
+                    }} className="collections-type-filter-inner" style={{cursor:'pointer'}}>
+                        <p>Ethereum</p>
+                        <BsChevronBarDown size={20}/>
                     </div>
                     
                 </div>
                 <div className="collections-time-filter">
-                   <div className="collections-time-filter-inner">
+                   <div onClick={()=>{
+                    //    alert('something just happened')
+                    setIsBlockchainDropdown(false)
+                       setIsTimeFilterDropdown(!isTImeFilterDropdown)
+                   }} className="collections-time-filter-inner" style={{cursor:'pointer'}} > 
  <p>In 7 days</p>
  <BsChevronBarDown size={20}/>
                    </div>
                 </div>
-                
+                 {/* beginning dropdown */}
+                    {
+                        renderBlockchainDropdown()
+                    }
+                    {
+                        renderTimeFilter()
+                    }
                    
                 </div>
             </div>

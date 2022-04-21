@@ -3,6 +3,7 @@
     height: auto;
     display: flex;
     flex-direction: column;
+    overflow-x: scroll;
 }
 
 .activities-filter-container{
@@ -91,9 +92,12 @@ border: #1E2F8C solid 2px;
     }
 
     .activities-table{
-    width: 100%;
+    width: 80rem;
     height: auto;
     margin-top: 20px;
     margin-bottom: 5rem;
+}
+.main-container{
+    overflow-x: scroll;
 }
 }

@@ -2,8 +2,11 @@ import React, { useState } from "react";
 
 import './App.css'
 import {BsChevronBarDown} from 'react-icons/bs'
-
-
+import CardImageOne from './images/collections/Ellipse 3-1.svg'
+import CardImageTwo from './images/collections/Ellipse 3-2.svg'
+import CardImageThree from './images/collections/Ellipse 3-3.svg'
+import CardImageFour from './images/collections/Ellipse 3-4.svg'
+import CardImageFive from './images/collections/Ellipse 3-5.svg'
 
 
 
@@ -45,14 +48,14 @@ const [isTImeFilterDropdown, setIsTimeFilterDropdown] = useState(false)
 const renderBlockchainDropdown =()=>{
     if (isBlockchainDropdown){
         return(
-            <div className="collections-header-filter-dropdown">
-                        <div className="collections-header-filter-dropdown-card">
+            <div className="home-collections-header-filter-dropdown">
+                        <div className="home-collections-header-filter-dropdown-card">
                             <p>Ethereum</p>
                         </div>
-                        <div className="collections-header-filter-dropdown-card">
+                        <div className="home-collections-header-filter-dropdown-card">
                             <p>Polygon</p>
                         </div>
-                        <div className="collections-header-filter-dropdown-card">
+                        <div className="home-collections-header-filter-dropdown-card">
                             <p>Binance</p>
                         </div>
                     </div>
@@ -65,14 +68,14 @@ const renderBlockchainDropdown =()=>{
 const renderTimeFilter =()=>{
     if (isTImeFilterDropdown){
         return(
-            <div className="collections-header-filter-dropdown">
-                        <div className="collections-header-filter-dropdown-card">
+            <div className="home-collections-header-filter-dropdown">
+                        <div className="home-collections-header-filter-dropdown-card">
                             <p>7days</p>
                         </div>
-                        <div className="collections-header-filter-dropdown-card">
+                        <div className="home-collections-header-filter-dropdown-card">
                             <p>1 Month</p>
                         </div>
-                        <div className="collections-header-filter-dropdown-card">
+                        <div className="home-collections-header-filter-dropdown-card">
                             <p>2 Months</p>
                         </div>
                     </div>
@@ -89,16 +92,19 @@ const renderTimeFilter =()=>{
     <Header/>
     {/* Welcome Page */}
         <div className="welcome-page">
+            <div className="welcome-background">
+                <p></p>
+            </div>
             <div className="welcome-section">
                 <h2>No. 1 NFT Marketplace in the world</h2>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tempor pharetra rutrum. Mauris quis lectus at augue dapibus accumsan sed nec tellus. Curabitur et lacus facilisis, iaculis mauris ac, dignissim nulla. 
                 </p>
                 <div className="welcome-button-section">
-                    <Link to='/explore'><button className="explore-button">
+                    <Link to='/explore'><button className="home-explore-button">
                         Explore
                     </button></Link>
-                    <Link to='/create'><button className="create-button">
+                    <Link to='/create'><button className="home-create-button">
                         Create NFT
                     </button></Link>
                 </div>
@@ -131,8 +137,7 @@ const renderTimeFilter =()=>{
             <div className="collections-header">
                 <h2 className="collections-header-text">Top Rated Collections</h2>
                 <div className="collections-header-filter">
-                   
-                    {/* end */}
+                   <div className="collections-header-inner-1">
                     <div className="collections-type-filter">
                     <div onClick={()=>{
                         setIsTimeFilterDropdown(false)
@@ -152,26 +157,36 @@ const renderTimeFilter =()=>{
  <p>In 7 days</p>
  <BsChevronBarDown size={20}/>
                    </div>
+                   </div>
+                    {/* end */}
+                       
                 </div>
-                 {/* beginning dropdown */}
+            
+                 <div className="collections-header-inner-2">
+                    {/* beginning dropdown */}
                     {
                         renderBlockchainDropdown()
                     }
                     {
                         renderTimeFilter()
                     }
+                </div>
                    
                 </div>
             </div>
             <div className="collections-container">
-               <CollectionCardComponent/>
-                <CollectionCardComponent/>
-                 <CollectionCardComponent/>
-                  <CollectionCardComponent/>
-                  <CollectionCardComponent/>
-                <CollectionCardComponent/>
-                 <CollectionCardComponent/>
-                  <CollectionCardComponent/>
+               <CollectionCardComponent CardImage={CardImageOne}/>
+                <CollectionCardComponent CardImage={CardImageTwo}/>
+                 <CollectionCardComponent CardImage={CardImageThree}/>
+                <CollectionCardComponent CardImage={CardImageFour}/>
+                 <CollectionCardComponent CardImage={CardImageFive}/>
+                <CollectionCardComponent CardImage={CardImageTwo}/>
+                 <CollectionCardComponent CardImage={CardImageOne}/>
+                <CollectionCardComponent CardImage={CardImageFive}/>
+                  <CollectionCardComponent CardImage={CardImageThree}/>
+                <CollectionCardComponent CardImage={CardImageFive}/>
+                  <CollectionCardComponent CardImage={CardImageThree}/>
+                <CollectionCardComponent CardImage={CardImageFive}/>
             </div>
             <div className="collections-button-container">
                 <button className="collections-button">
@@ -202,14 +217,15 @@ const renderTimeFilter =()=>{
         <div className="bestseller-page">
             <h2>Best Sellers</h2>
             <div className="bestseller-container">
-               <SellerCardComponent/>
-               <SellerCardComponent/>
-               <SellerCardComponent/>
-               <SellerCardComponent/>
-               <SellerCardComponent/>
-               <SellerCardComponent/>
-               <SellerCardComponent/>
-               <SellerCardComponent/>
+               <SellerCardComponent SellerCardPrice={12} SellerCardImage={CardImageFive}/>
+               <SellerCardComponent SellerCardPrice={11} SellerCardImage={CardImageThree}/>
+               <SellerCardComponent SellerCardPrice={16} SellerCardImage={CardImageOne}/>
+               <SellerCardComponent SellerCardPrice={18} SellerCardImage={CardImageFour}/>
+               <SellerCardComponent SellerCardPrice={20} SellerCardImage={CardImageTwo}/>
+               <SellerCardComponent SellerCardPrice={30} SellerCardImage={CardImageThree}/>
+               <SellerCardComponent SellerCardPrice={40} SellerCardImage={CardImageOne}/>
+               <SellerCardComponent SellerCardPrice={90} SellerCardImage={CardImageThree}/>
+               
             </div>
         </div>
 

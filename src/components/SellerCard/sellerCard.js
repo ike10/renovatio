@@ -2,11 +2,11 @@ import React from "react";
 import './sellerCard.css'
 import CurrencyImage from '../../images/collectioncard/currency.svg'
 
-import CollectionCardImage from '../../images/sellerCard/collectioncardimage.svg'
+// import CollectionCardImage from '../../images/sellerCard/collectioncardimage.svg'
 // import LikeImage from '../../images/sellerCard/like.svg'
 // import CurrencyImage from '../../images/collectioncard/currency.svg'
 
-export default function SellerCardComponent   () {
+export default function SellerCardComponent   ({SellerCardImage, SellerCardPrice}) {
 
 
 
@@ -14,10 +14,10 @@ export default function SellerCardComponent   () {
     return (
          
      <div className="seller-card">
-                    <img className="seller-card-image" src={CollectionCardImage} alt="main slider"/>
+                    <img className="seller-card-image" src={SellerCardImage} alt="main slider"/>
                     <div className="seller-card-details">
                         <h4>Collection</h4>
-                        <p>11 ETH</p>
+                        <p>{SellerCardPrice} ETH</p>
                     </div>
                     <div className="seller-card-stats">
                         

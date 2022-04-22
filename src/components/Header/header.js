@@ -60,11 +60,13 @@ export const Header = () => {
         </div>
 
         </Link>
-
-      <div className='header-input'>
+      <div className='header-input-outer'>
+        <div className='header-input'>
           <input placeholder='search by user, collection, item, e.t.c...' />
           <img src={SearchIcon} alt='search' />
         </div>
+      </div>
+      
       <div className='header-nav'>
           <Link to='/explore'><p>Explore</p></Link>
           <Link to='/create'><p>Create</p></Link>

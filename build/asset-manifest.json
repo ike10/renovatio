@@ -1,18 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.5d6f92a0.css",
-    "main.js": "/static/js/main.95391c7c.js",
+    "main.css": "/static/css/main.6e659e1e.css",
+    "main.js": "/static/js/main.246ac232.js",
     "static/js/787.cfd8f164.chunk.js": "/static/js/787.cfd8f164.chunk.js",
+    "static/media/Ellipse 3-4.svg": "/static/media/Ellipse 3-4.0548d0790d1c666de7717770244b9dda.svg",
     "static/media/welcome-image-1.svg": "/static/media/welcome-image-1.77a1d553b4e97f516d8300eb4547f953.svg",
     "static/media/browseCollections.svg": "/static/media/browseCollections.f08bc229188d4bd66cac2c76a9cfdea3.svg",
+    "static/media/Ellipse 3-3.svg": "/static/media/Ellipse 3-3.071f87da3c60566326bd3a0c2f20bc51.svg",
     "static/media/nftRave.svg": "/static/media/nftRave.da46d17e1a0ae1b09a27.svg",
+    "static/media/Ellipse 3-2.svg": "/static/media/Ellipse 3-2.bd6b66c1255c722bed2af3f89c9db655.svg",
     "static/media/renovatio-logo.svg": "/static/media/renovatio-logo.8058e6731bfa2c138faa40ba81bdfc0b.svg",
     "static/media/welcome-image-2.svg": "/static/media/welcome-image-2.26dc6c6784b645b2c63938af5038a41f.svg",
     "static/media/welcome-image-3.svg": "/static/media/welcome-image-3.a74d6cb314b01c066b89d1557c793ad3.svg",
+    "static/media/Ellipse 3-1.svg": "/static/media/Ellipse 3-1.5d6edebb5aece6de3ff8526c9ebdab10.svg",
     "static/media/Binance-Logo.svg": "/static/media/Binance-Logo.c51b19d4a9eaa7a24a5be2f2b7f719f9.svg",
+    "static/media/Ellipse 3-5.svg": "/static/media/Ellipse 3-5.5256ec1e50e358c279ee0b48042b0da5.svg",
     "static/media/explore-card-image.svg": "/static/media/explore-card-image.203faeb2bf9757135948e86f1bc01cc9.svg",
     "static/media/bidImage.svg": "/static/media/bidImage.b0d3318020fee2922efd45e610227d73.svg",
-    "static/media/collectioncardimage.svg": "/static/media/collectioncardimage.1de6304c502aa597582281cb52e2472a.svg",
     "static/media/Circular Std Bold.ttf": "/static/media/Circular Std Bold.70b1780ab02d1d1ac189.ttf",
     "static/media/coingecko.svg": "/static/media/coingecko.5d31f13cb3547e26f37e61739cd50167.svg",
     "static/media/polygon_token_logo-freelogovectors.svg": "/static/media/polygon_token_logo-freelogovectors.a970f0812c61da2d4fea68174baf2878.svg",
@@ -28,12 +32,12 @@
     "static/media/search.svg": "/static/media/search.3acc78de16d7a6d7b4e82593e92e2e34.svg",
     "static/media/add_photo_alternate.svg": "/static/media/add_photo_alternate.19a677a52d70e55f7e52b02d9e463dc1.svg",
     "static/media/blackOpenMenuBar.svg": "/static/media/blackOpenMenuBar.003019a7826ee09ef04edd4cc78b1141.svg",
-    "main.5d6f92a0.css.map": "/static/css/main.5d6f92a0.css.map",
-    "main.95391c7c.js.map": "/static/js/main.95391c7c.js.map",
+    "main.6e659e1e.css.map": "/static/css/main.6e659e1e.css.map",
+    "main.246ac232.js.map": "/static/js/main.246ac232.js.map",
     "787.cfd8f164.chunk.js.map": "/static/js/787.cfd8f164.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5d6f92a0.css",
-    "static/js/main.95391c7c.js"
+    "static/css/main.6e659e1e.css",
+    "static/js/main.246ac232.js"
   ]
 }
